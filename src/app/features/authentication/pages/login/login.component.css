@@ -1,0 +1,26 @@
+.waza{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.login-container{
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.ancho{
+  width: 100%;
+}
+.button{
+  border-radius: 5px;
+  height: 56px;
+  background-color: blue;
+  color: white;
+}

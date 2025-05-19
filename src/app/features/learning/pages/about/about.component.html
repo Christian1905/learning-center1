@@ -1,0 +1,17 @@
+<mat-card class="example-card" appearance="outlined" *ngFor="let course of dataSource.data">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{ course.title }}</mat-card-title>
+    <mat-card-subtitle>{{ course.id }}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="{{course.url}}" alt="{{course.title}}" height="400" width="400">
+  <mat-card-content>
+    <p>
+      {{ course.description }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>{{ 'like' | translate }}</button>
+    <button mat-button>{{ 'share' | translate }}</button>
+  </mat-card-actions>
+</mat-card>

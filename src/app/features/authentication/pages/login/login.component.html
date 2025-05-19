@@ -1,0 +1,22 @@
+<div class="waza">
+  <img src="/assets/imgs/login.jpg" alt="wa">
+  <p>Login</p>
+  <mat-spinner *ngIf="loading" class="spinner" diameter="50"></mat-spinner>
+  <form *ngIf="!loading" [formGroup]="form" (ngSubmit)="ingresar()">
+    <div class = "login-container">
+      <mat-form-field>
+        <mat-label>Usuario</mat-label>
+        <input type="text" matInput formControlName="nickname">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Correo</mat-label>
+        <input type="email" matInput formControlName="email">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Clave</mat-label>
+        <input type="password" matInput formControlName="password">
+      </mat-form-field>
+      <button type="submit" mat-flat-button class="ancho" color="primary" [disabled]="form.invalid">Ingresar</button>
+    </div>
+  </form>
+</div>

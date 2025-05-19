@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <div class="Left">
+    <img src="https://media.licdn.com/dms/image/v2/C4D0BAQGICy8Y4BxWNQ/company-logo_200_200/company-logo_200_200/0/1631308832481?e=2147483647&v=beta&t=zEMGJjlu9V8com8Anpy-Fc7UlKhh-IBJlNd50e2sCGI"
+    alt="Logo"
+    height="20">
+    <h1>ISO 27001:2022 certified</h1>
+    </div>
+    <div class="center">
+    @for (option of options; track option.label) {
+      <a mat-button [routerLink]="option.link" routerLinkActive="active">{{ option.label | translate }}</a>
+    }
+    </div>
+    <div class="Right">
+    <app-language-switcher/>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet/>

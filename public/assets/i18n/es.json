@@ -1,0 +1,11 @@
+{
+  "home": "Inicio",
+  "welcome": "Bienvenido a Eventify",
+  "about": "Acerca de",
+  "courses": "Cursos",
+  "login": "Iniciar sesion",
+  "pagenotfound": "Página no encontrada",
+  "invalidpath": "La ruta <b>{{path}}</b> no es válida",
+  "like": "Me Gusta",
+  "share": "Compartir"
+}

@@ -1,0 +1,18 @@
+.Left,
+.Right {
+  display: flex;
+  align-items: center;
+}
+
+.toolbar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
