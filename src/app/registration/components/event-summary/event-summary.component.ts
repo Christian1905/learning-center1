@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { TranslateModule } from '@ngx-translate/core';
-import { Event } from '../../models/event';
+import { Event } from '../../models/event.entity';
 
 @Component({
   selector: 'app-event-summary',

@@ -29,13 +29,13 @@ export class CourseCreateAndEditComponent extends BaseFormComponent {
   /** Flag indicating whether the component is in edit mode */
   @Input() editMode: boolean = false;
 
-  /** Event emitter for when a new course should be added */
+  /** EventEntity emitter for when a new course should be added */
   @Output() protected courseAddRequested = new EventEmitter<Course>();
 
-  /** Event emitter for when an existing course should be updated */
+  /** EventEntity emitter for when an existing course should be updated */
   @Output() protected courseUpdateRequested = new EventEmitter<Course>();
 
-  /** Event emitter for when the operation is canceled */
+  /** EventEntity emitter for when the operation is canceled */
   @Output() protected cancelRequested = new EventEmitter<void>();
 
   /** Reference to the course form */

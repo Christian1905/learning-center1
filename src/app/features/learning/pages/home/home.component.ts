@@ -4,15 +4,13 @@ import { TranslateModule } from '@ngx-translate/core';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { EventSummaryComponent } from '../../../../registration/components/event-summary/event-summary.component';
 import { EventService } from '../../../../registration/services/event.service';
-import { Event } from '../../../../registration/models/event';
-import { forkJoin, map } from 'rxjs';
-import {TranslatePipe} from '@ngx-translate/core';
+import { Event } from '../../../../registration/models/event.entity';
+import { forkJoin } from 'rxjs';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
-    TranslatePipe,
     CommonModule,
     TranslateModule,
     MatGridListModule,

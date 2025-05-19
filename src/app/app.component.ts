@@ -47,9 +47,7 @@ export class AppComponent {
    */
   options = [
     {link: '/home', label: 'home'},
-    {link: '/about', label: 'about'},
-    {link: '/learning/courses', label: 'courses'},
-    {link: '/login', label: 'login'},
+    {link: '/engagement/ratings/new', label: 'rating'}
   ]
 
   /**

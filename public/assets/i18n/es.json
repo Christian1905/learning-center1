@@ -6,6 +6,13 @@
   "login": "Iniciar sesion",
   "pagenotfound": "Página no encontrada",
   "invalidpath": "La ruta <b>{{path}}</b> no es válida",
-  "like": "Me Gusta",
-  "share": "Compartir"
+  "registeredevents": "Eventos registrados",
+  "checkedin": "Asistidos",
+  "rating": "Calificación",
+  "norating": "Sin calificación",
+  "addratingtitle": "Agregar calificación para el evento al que asististe",
+  "ticketidentifier": "Identificador del ticket",
+  "ratingvalue": "Calificación",
+  "ratinghint": "Ingresa un valor entre 1 y 5",
+  "ratebutton": "Calificar evento"
 }

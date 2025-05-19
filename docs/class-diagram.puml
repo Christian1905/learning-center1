@@ -136,7 +136,7 @@ AppComponent ..> public.pages.HomeComponent: uses
 AppComponent ..> public.pages.AboutComponent: uses
 AppComponent ..> public.pages.PageNotFoundComponent: uses
 
-' Event relationships
+' EventEntity relationships
 learning.components.CourseCreateAndEditComponent ..> learning.pages.CourseManagementComponent: emits events
 public.components.LanguageSwitcherComponent ..> TranslateService: uses
 

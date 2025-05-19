@@ -6,6 +6,13 @@
   "login": "Login",
   "pagenotfound": "Page Not Found",
   "invalidpath": "The path <b>{{path}}</b> is not valid",
-  "like": "Like",
-  "share": "Share"
+  "registeredevents": "Registered Events",
+  "checkedin": "Checked In",
+  "rating": "Rating",
+  "norating": "No rating",
+  "addratingtitle": "Add a Rating for the Event you attended",
+  "ticketidentifier": "Ticket Identifier",
+  "ratingvalue": "Rating",
+  "ratinghint": "Enter a value between 1 and 5",
+  "ratebutton": "Rate Event"
 }

@@ -1,39 +1,29 @@
 {
-  "profiles": [],
-  "users": [],
-  "students": [],
-  "courses": [
+  "events": [
     {
       "id": 1,
-      "title": "Sample",
+      "name": "Sample",
       "description": "Sample Course",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Shiba_inu_taiki.jpg/960px-Shiba_inu_taiki.jpg"
-    },
-    {
-      "id": 2,
-      "title": "Vue Foundation",
-      "description": "Vue Introductory Course",
-      "url": "https://www.purina.es/sites/default/files/styles/ttt_image_510/public/2024-02/sitesdefaultfilesstylessquare_medium_440x440public2022-07Japanese20Shiba20Inu1.jpg?itok=yJYFXNSq"
-    },
-    {
-      "id": 3,
-      "title": "ASP.NET Core for Web Apps",
-      "description": "Web Development with ASP.NET Core",
-      "url": "https://spotpet.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fm5ehn3s5t7ec%2Fwp-image-198146%2F11909241c41326aaa9df9d2995095f49%2FShiba_Inu.jpeg&w=3840&q=75"
-    },
-    {
-      "id": 9,
-      "title": "HOLA",
-      "description": "Papulandia",
-      "url": "https://spotpet.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fm5ehn3s5t7ec%2Fwp-image-198146%2F11909241c41326aaa9df9d2995095f49%2FShiba_Inu.jpeg&w=3840&q=75"
-    },
-    {
-      "id": 10,
-      "title": "Hola ",
-      "description": "xd",
-      "url": "https://spotpet.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fm5ehn3s5t7ec%2Fwp-image-198146%2F11909241c41326aaa9df9d2995095f49%2FShiba_Inu.jpeg&w=3840&q=75"
+      "scheduledAt": "2025-05-20T10:00:00Z"
     }
   ],
-  "enrollments": [],
-  "progress-record-items": []
+  "attendees": [
+    {
+      "id": 1,
+      "firstName": "Sample",
+      "lastName": "Sample Course",
+      "eventId": "2025-05-20T10:00:00Z",
+      "ticketIdentifier": "1234567890",
+      "checkedInAt": "2025-05-20T10:00:00Z"
+    }
+  ],
+  "ratings": [
+    {
+      "id": 1,
+      "attendeeId": 1,
+      "eventId": 1,
+      "rating": 5,
+      "ratedAt": "2025-05-20T10:00:00Z"
+    }
+  ]
 }
