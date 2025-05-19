@@ -3,3 +3,17 @@
 <p>{{ 'welcome' | translate }}</p>
 </div>
 
+<section class="events-section">
+  <h2>{{ 'HOME.REGISTERED_EVENTS' | translate }}</h2>
+  
+  <mat-grid-list cols="2" rowHeight="400px" gutterSize="16px">
+    <mat-grid-tile *ngFor="let eventData of events">
+      <app-event-summary
+        [event]="eventData.event"
+        [checkedInCount]="eventData.checkedInCount"
+        [averageRating]="eventData.averageRating">
+      </app-event-summary>
+    </mat-grid-tile>
+  </mat-grid-list>
+</section>
+

@@ -1,0 +1,23 @@
+<!-- Event Summary Card -->
+<mat-card class="event-card" aria-label="Event summary card">
+  <mat-card-header>
+    <mat-card-title>{{ event.name }}</mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+    <p>{{ event.description }}</p>
+  </mat-card-content>
+
+  <mat-card-footer class="stats-footer">
+    <div class="stat-item">
+      <mat-icon aria-hidden="true">people</mat-icon>
+      <span>{{ 'EVENTS.CHECKED_IN_ATTENDEES' | translate }}: {{ checkedInCount }}</span>
+    </div>
+    <div class="stat-item">
+      <mat-icon aria-hidden="true">star_rate</mat-icon>
+      <span>{{ 'EVENTS.AVERAGE_RATING' | translate }}: 
+        {{ averageRating !== null ? averageRating : ('EVENTS.NO_RATINGS' | translate) }}
+      </span>
+    </div>
+  </mat-card-footer>
+</mat-card>
